@@ -4,12 +4,12 @@ This function takes one or more polynomials and does addidtion or subtraction to
 
 Pass the polynomials to be solved as a string in the below format
 
-(a1x**n + b1x**n + c1x + d1) + (a2x**n + b2x**n + c2x + d2) + .......
+(a1x\*\*n + b1x\*\*n + c1x + d1) + (a2x\*\*n + b2x\*\*n + c2x + d2) + .......
 
 *Take care of the spacing between the operators while passing the input.*
 
 Sample inputs:<br />
-add_poly('(x**3 + 5x**2 - 3x + 3) + (4x**5 - 2x**2 + 1) + (4x**3)')<br />
+add_poly('(x\*\*3 + 5x\*\*2 - 3x + 3) + (4x\*\*5 - 2x\*\*2 + 1) + (4x\*\*3)')<br />
 add_poly('(x**3 + 5x**2 - 3x + 3) + (4x**5 - 2x**2 + 1) + (-1)')<br />
 add_poly('(x**3 + 5x**2 - 3x + 3) + (4x**5 - 2x**2 + 1)')<br />
 add_poly('(x**3 + 5x**2 - 3x + 3)')<br />
